@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Tahoma;
+}
+
+/*Header star*/
+#header {
+  text-align: center;
+  font-family: "Buda", cursive;
+}
+
+#header h1 {
+  font-size: 300%;
+}
+/*Header end*/
+
+/*navbar start*/
+#navbar {
+  text-align: center;
+  padding: 0 20%;
+  font-family: "Buda", cursive;
+  font-size: 2em;
+}
+
+#navbar ul {
+  padding: 0;
+  border-bottom: solid black;
+}
+
+#navbar li {
+  display: inline-block;
+  margin: 10px;
+  padding-left: 5px;
+}
+
+#navbar a {
+  text-decoration: none;
+}
+
+#navbar li:hover {
+  background-color: moccasin;
+}
+
+/*navbar end*/
+
+/*article start*/
+#article {
+  text-align: center;
+  padding: 0 20%;
+}
+/*article end*/
+
+@media (min-width: 768px) and (max-width: 980px) {
+}
+
+@media (max-width: 767px) {
+}
