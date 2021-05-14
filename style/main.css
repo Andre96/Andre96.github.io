@@ -1,7 +1,9 @@
 body {
+  height: 100%;
   padding: 0;
   margin: 0;
-  font-family: Tahoma;
+  font-family: "Julius Sans One", sans-serif;
+  transition: 2s;
 }
 
 /*Header star*/
@@ -19,13 +21,13 @@ body {
 #navbar {
   text-align: center;
   padding: 0 20%;
-  font-family: "Buda", cursive;
-  font-size: 2em;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 30px;
 }
 
 #navbar ul {
   padding: 0;
-  border-bottom: solid black;
+  border-bottom: solid black 2px;
 }
 
 #navbar li {
@@ -36,10 +38,12 @@ body {
 
 #navbar a {
   text-decoration: none;
+  color: black;
 }
 
-#navbar li:hover {
-  background-color: moccasin;
+#navbar a:hover {
+  color: white;
+  background-color: black;
 }
 
 /*navbar end*/
@@ -51,8 +55,38 @@ body {
 }
 /*article end*/
 
+/*start toggle light/dark*/
+#toggle_dn {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  top: 20px;
+  right: 20px;
+}
+/*end toggle light/dark*/
+
 @media (min-width: 768px) and (max-width: 980px) {
 }
 
 @media (max-width: 767px) {
 }
+
+/*start dark mode*/
+
+body.dark_mode {
+  background-color: black;
+  color: white;
+  transition: 2s;
+}
+
+#navbar.dark_mode a {
+  color: white;
+  transition: 2s;
+}
+
+#navbar.dark_mode ul {
+  border-bottom: solid white 2px;
+  transition: 2s;
+}
+
+/*end dark mode*/
