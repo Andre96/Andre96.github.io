@@ -7,7 +7,7 @@ function toggle_dn(){
         elements[i].classList.toggle("dark_mode")
     }
     if(body.classList.contains("dark_mode")){
-        document.getElementById("toggle_dn").src = "images/night.jpeg";
+        document.getElementById("toggle_dn").src = "images/night.png";
     } else {
         document.getElementById("toggle_dn").src = "images/light.png";
     }
