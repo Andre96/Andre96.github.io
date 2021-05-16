@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style/main.css" />
+    <link type="text/css" rel="stylesheet" href="style/contact.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Buda:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Contact me</title>
+</head>
+<body>
+    <header id="header"><h1>Andrea Catena</h1></header>
+    <img id="toggle_dn" src="images/light.png" alt="alt" onclick="toggle_dn()">
+
+    <nav id="navbar">
+      <ul>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about_me.html">About me</a></li>
+        <li><a href="videocurriculum.html">Videocurriculum</a></li>
+        <li><a href="contact.html">Contact me</a></li>
+      </ul>
+    </nav>
+    <div id="wrapper">
+      <div id="contact_form">
+        <div id="input_field">
+          <form action="">
+            <input type="text" class="input" placeholder="Name or company">
+            <input type="text" class="input" placeholder="Email address">
+            <input type="text" class="input" placeholder="Phone number">
+            <input type="text" class="input" placeholder="Subject">
+          </form>
+        </div>
+        <div id="message">
+          <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Message"></textarea>
+        </div>
+      </div>
+    </div>
+</html>

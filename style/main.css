@@ -1,3 +1,12 @@
+/*
+html {
+  background: radial-gradient(white, black);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+*/
+
 body {
   height: 100%;
   padding: 0;
@@ -65,12 +74,6 @@ body {
 }
 /*end toggle light/dark*/
 
-@media (min-width: 768px) and (max-width: 980px) {
-}
-
-@media (max-width: 767px) {
-}
-
 /*start dark mode*/
 
 body.dark_mode {
@@ -90,3 +93,42 @@ body.dark_mode {
 }
 
 /*end dark mode*/
+
+/*start animation*/
+#animation_div {
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  top: 300px;
+  width: 50%;
+  height: 50%;
+  margin-left: -30%;
+  justify-content: center;
+}
+
+#animation {
+  width: 100%;
+  height: 100%;
+}
+audio::-webkit-media-controls-timeline,
+video::-webkit-media-controls-timeline {
+  display: none;
+}
+audio::-webkit-media-controls,
+video::-webkit-media-controls {
+  display: none;
+}
+/*end animation*/
+
+/*start menu btn*/
+
+/*end menu btn*/
+
+/*start media query*/
+@media (min-width: 768px) and (max-width: 980px) {
+}
+
+@media (max-width: 767px) {
+}
+
+/*end media query*/

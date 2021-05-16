@@ -1,0 +1,50 @@
+* {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+#wrapper {
+  margin: auto;
+  width: auto;
+  max-width: 750px;
+  padding: 20px 20px;
+}
+
+#contact_form {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+#input_field {
+  display: block;
+}
+
+#message {
+  display: block;
+}
+
+#msg {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 70%;
+  background: transparent;
+  resize: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+}
+
+.input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 70%;
+  background: transparent;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+}

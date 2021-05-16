@@ -12,3 +12,11 @@ function toggle_dn(){
         document.getElementById("toggle_dn").src = "images/light.png";
     }
 }
+
+function dark_trigger(){
+    var d = new Date();
+    var n = d.getHours();
+    if (n > 15) {
+        //stoggle_dn()
+    }
+}

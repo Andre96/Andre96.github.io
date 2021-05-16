@@ -17,7 +17,7 @@
     <script src="js/main.js"></script>
     <title>Document</title>
   </head>
-  <body>
+  <body onload="javascript:dark_trigger()">
     <header id="header"><h1>Andrea Catena</h1></header>
     <img
       id="toggle_dn"
@@ -26,13 +26,27 @@
       onclick="toggle_dn()"
     />
     <nav id="navbar">
+      <div class="menu-btn">
+        <div class="menu-bt_burger"></div>
+      </div>
       <ul>
         <li><a href="work.html">Work</a></li>
         <li><a href="about_me.html">About me</a></li>
         <li><a href="videocurriculum.html">Videocurriculum</a></li>
-        <li><a href="contacts.html">Contacts</a></li>
+        <li><a href="contact.html">Contact me</a></li>
       </ul>
     </nav>
+    <div id="animation_div">
+      <video
+        id="animation"
+        controls
+        autoplay
+        muted
+        name="light_logo"
+        src="animation/light_logo.mp4"
+        type="video/mp4"
+      ></video>
+    </div>
     <footer></footer>
   </body>
 </html>
